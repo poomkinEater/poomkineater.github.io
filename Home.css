@@ -4,68 +4,106 @@
 
 .u-section-1 .u-text-1 {
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: 160px auto 0 0;
+  font-style: italic;
+  font-family: "Bad Script";
+  font-size: 3.75rem;
+  margin: 254px 67px 0 auto;
 }
 
 .u-section-1 .u-text-2 {
-  font-size: 1.25rem;
+  font-size: 1.875rem;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: 68px 532px 0 0;
+  margin: 14px -14px 0 546px;
 }
 
 .u-section-1 .u-text-3 {
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: 68px 496px 60px 0;
+  font-size: 1.875rem;
+  margin: 33px -32px 0 528px;
+}
+
+.u-section-1 .u-text-4 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 1.875rem;
+  margin: 33px -32px 60px 528px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 754px;
-  }
-
   .u-section-1 .u-text-2 {
-    margin-right: 332px;
+    margin-left: 446px;
   }
 
   .u-section-1 .u-text-3 {
-    margin-right: 296px;
+    margin-left: 428px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-left: 428px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 578px;
+  .u-section-1 .u-text-1 {
+    width: auto;
+    font-size: 3rem;
+    margin-top: 269px;
+    margin-right: auto;
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 112px;
+    font-size: 1.5rem;
+    width: 398px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-1 .u-text-3 {
-    margin-right: 76px;
+    width: auto;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    margin-right: 125px;
+    margin-left: 161px;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: 434px;
+    font-size: 1.5rem;
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 434px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-right: 0;
-  }
-
   .u-section-1 .u-text-3 {
-    margin-right: 0;
+    margin-right: 35px;
+    margin-left: 71px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 273px;
+    min-height: 910px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+    margin-top: 265px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: 340px;
   }
 } .u-section-2 {
-  background-image: url("images/v906-gib-0023.jpg");
   background-position: 50% 50%;
 }
 
@@ -145,11 +183,11 @@
 }
 
 .u-section-3 .u-text-1 {
-  margin: 0 auto;
+  margin: 129px auto 0;
 }
 
 .u-section-3 .u-text-2 {
-  margin: 20px auto 0;
+  margin: 19px auto 0;
 }
 
 @media (max-width: 1199px) {
@@ -216,6 +254,11 @@
 }
 .bg 
 {
-	background-color:red;
-	opacity:0.3;
-} 
+	filter: brightness(20%);
+}
+.grad {
+	font-size: 72px;
+  background: -webkit-linear-gradient(to bottom right, #5e5e5e, #f2f2f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
