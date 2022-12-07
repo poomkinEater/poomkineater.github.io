@@ -39363,7 +39363,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-body
         {
-        background-image: url("images/bg.jpg");
+        background-image: url("images/chakra.jpg");
         background-size: initial;
         background-position: top left;
         background-repeat: repeat;
@@ -39535,7 +39535,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 133px;
+  min-height: 452px;
 }
 
 .u-header .u-text-1 {
@@ -39552,11 +39552,11 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-text-3 {
   margin: 0 auto 12px 0;
 }
-@media (max-width: 1199px) {
-  .u-header .u-sheet-1 {
-    min-height: 145px;
-  }
 
+.u-header .u-text-4 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+@media (max-width: 1199px) {
   .u-header .u-text-2 {
     width: auto;
     margin-right: 0;
@@ -39568,10 +39568,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-sheet-1 {
-    min-height: 116px;
-  }
-
   .u-header .u-text-1 {
     width: auto;
     margin-top: 12px;
@@ -39592,18 +39588,21 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 69px;
-  }
-
   .u-header .u-text-1 {
-    font-size: 2.25rem;
     line-height: 1;
-    margin: 17px 22px;
+    margin-top: 264px;
+    margin-left: -50px;
   }
 
   .u-header .u-text-2 {
     margin-top: -244px;
+  }
+
+  .u-header .u-text-4 {
+    font-size: 1.125rem;
+    line-height: 1;
+    width: auto;
+    margin: 14px 242px 36px -50px;
   }
 }
  .u-footer {
