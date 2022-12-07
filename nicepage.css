@@ -39232,7 +39232,7 @@ a.u-link.u-text-hover-grey-90:hover {
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
         --theme-sheet-width-sm: 540px;
-        --theme-sheet-width-xs: 340px;
+        --theme-sheet-width-xs: 575px;
         
         
         
@@ -39363,7 +39363,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-body
         {
-        background-image: url("images/bg.jpg");
+        background-image: url("images/bgcode1.jpg");
         background-size: cover;
         background-position: 50% 50%;
         background-repeat: no-repeat;
@@ -39596,17 +39596,18 @@ a.u-link.u-text-hover-grey-90:hover {
 
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 181px;
+    min-height: 134px;
   }
 
   .u-header .u-text-1 {
-    font-size: 1.875rem;
-    margin-top: 43px;
+    margin-top: 28px;
+    margin-left: 14px;
+    margin-right: 14px;
   }
 
   .u-header .u-text-2 {
     margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 31px;
   }
 
   .u-header .u-text-3 {
