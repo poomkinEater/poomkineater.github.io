@@ -39529,42 +39529,40 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {
-  background-image: url("images/header.png");
-  background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  background-image: url("images/black-floral-seamless-pattern-with-shadow_1284-42217.png");
+  background-position: 50% 50%;
 }
 
 .u-header .u-sheet-1 {
-  min-height: 145px;
+  min-height: 133px;
 }
 
 .u-header .u-text-1 {
-  font-size: 3rem;
+  font-size: 3.75rem;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: 26px auto 0 -30px;
+  line-height: 1.6;
+  margin: 4px auto 0 0;
 }
 
 .u-header .u-text-2 {
-  font-size: 1.125rem;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: -11px auto 0 178px;
+  margin: -21px auto 0 0;
 }
 
 .u-header .u-text-3 {
-  margin: -71px -72px 0 auto;
-}
-
-.u-header .u-text-4 {
-  margin: 0 -72px 55px auto;
+  margin: 0 auto 12px 0;
 }
 @media (max-width: 1199px) {
-  .u-header .u-text-3 {
+  .u-header .u-sheet-1 {
+    min-height: 145px;
+  }
+
+  .u-header .u-text-2 {
     width: auto;
-    margin-top: -71px;
     margin-right: 0;
   }
 
-  .u-header .u-text-4 {
+  .u-header .u-text-3 {
     width: auto;
     margin-right: 0;
   }
@@ -39581,38 +39579,31 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-text-2 {
-    width: auto;
-    margin-left: auto;
+    margin-top: -219px;
   }
 
   .u-header .u-text-3 {
-    margin-top: -292px;
-  }
-
-  .u-header .u-text-4 {
     margin-bottom: 60px;
   }
 }
-
+@media (max-width: 767px) {
+  .u-header .u-text-2 {
+    margin-top: -219px;
+  }
+}
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 162px;
+    min-height: 69px;
   }
 
   .u-header .u-text-1 {
+    font-size: 2.25rem;
     line-height: 1;
-    margin-top: 17px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 17px 22px;
   }
 
   .u-header .u-text-2 {
-    margin-top: 0;
-    margin-bottom: 22px;
-  }
-
-  .u-header .u-text-3 {
-    margin-top: -368px;
+    margin-top: -244px;
   }
 }
  .u-footer {

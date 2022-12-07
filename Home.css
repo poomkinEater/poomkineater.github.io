@@ -1,3 +1,8 @@
+ .u-section-1 {
+  background-image: url("images/chakra.jpg");
+  background-position: 50% 50%;
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 815px;
 }
@@ -8,7 +13,7 @@
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   font-style: normal;
   font-family: Roboto, sans-serif;
-  margin: 266px -24px 0 auto;
+  margin: 166px -24px 0 auto;
 }
 
 .u-section-1 .u-text-2 {
@@ -254,7 +259,12 @@
     margin-top: 31px;
     padding: 15px 41px 16px 39px;
   }
-}.u-section-3 .u-sheet-1 {
+} .u-section-3 {
+  background-image: url("images/45e03590875837.5e23469f81fff.png");
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-sheet-1 {
   min-height: 865px;
 }
 
@@ -342,6 +352,7 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-text-1 {
+    font-size: 2.25rem;
     margin-top: 77px;
   }
 
