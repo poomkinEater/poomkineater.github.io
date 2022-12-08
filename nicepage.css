@@ -4,8 +4,6 @@
  * Copyright 2014-2021 Froala Labs
  */
 
- 
-
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -39366,9 +39364,9 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-body
         {
         background-image: url("images/chakra.jpg");
-        background-size: initial;
-        background-position: top left;
-        background-repeat: repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
         background-attachment: fixed;
         }
         /** common-rules **/
