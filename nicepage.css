@@ -4,18 +4,6 @@
  * Copyright 2014-2021 Froala Labs
  */
 
- .custom-p
- {
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- }
-
 .fr-clearfix::after {
   clear: both;
   display: block;
