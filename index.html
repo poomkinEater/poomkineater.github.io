@@ -21,12 +21,57 @@
 		"@type": "Organization",
 		"name": ""
 }</script>
+<style>#INVITE {
+  top: 85vh;
+  color: white;
+}
+  @media only screen and (max-width: 600px) {
+  #INVITE {
+    top: 80vh;
+  }
+  
+}
+</style>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      
+$(document).ready(function(){
+      $("header").click(function() {
+      $('html,body').animate({
+        scrollTop: $("#carousel_b284").offset().top},
+        1000, 'swing');
+      });
+
+      $("#carousel_b284").click(function() {
+      $('html,body').animate({
+        scrollTop: $("#sec-83ff").offset().top},
+        1000, 'swing');
+      });
+
+      $("#sec-83ff").click(function() {
+      $('html,body').animate({
+        scrollTop: $("#sec-3307").offset().top},
+        1000, 'swing');
+      });
+
+      $("#sec-3307").click(function() {
+      $('html,body').animate({
+        scrollTop: $("footer").offset().top},
+        1000, 'swing');
+      });
+});
+    </script>
+
   </head>
-  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-xl-mode" data-lang="en"><header class="u-box-shadow u-clearfix u-header u-image u-header" id="sec-51ba" data-image-width="1280" data-image-height="1280"><div class="u-clearfix u-sheet u-sheet-1">
-        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" data-responsive-from="MD">
+  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-xl-mode" data-lang="en"><header style="height: 100vh; position: relative;" class="u-box-shadow u-clearfix u-header u-image u-header" id="sec-51ba" data-image-width="1280" data-image-height="1280"><div class="u-clearfix u-sheet u-sheet-1">
+    
+    <p id = "INVITE" style="height: 100vh; position: absolute; font-size: 40px; left: 0px;">Wedding Invite</p>    
+    <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" data-responsive-from="MD">
+
           <div class="menu-collapse">
             <a class="u-button-style u-custom-text-color u-file-icon u-nav-link u-text-white u-file-icon-1" href="#">
               <img src="images/2516745-3c9ff2a1.png" alt="">
@@ -51,7 +96,6 @@
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
-        <p class="u-text u-text-white u-text-1">Wedding Invite</p>
       </div></header>
     <section class="skrollable u-clearfix u-image u-section-1" id="carousel_b284" data-image-width="1280" data-image-height="1280">
       <div class="u-clearfix u-sheet u-sheet-1">
@@ -84,7 +128,7 @@
         </p>
         <p class="u-align-center u-text u-text-body-alt-color u-text-8" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="" data-animation-delay="500">Daughter of Mrs. Savita Sharma and Late Mr. Virendra Kumar Sharma</p>
         <p class="u-align-center u-text u-text-body-alt-color u-text-9" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="" data-animation-delay="500">Venue: Wedding Villa, Gate Number 2, C3, opp. Kendriya Vihar, Sector 51, Noida, Uttar Pradesh 201301</p>
-        <a href="https://www.google.ca/search?q=wedding+villa+noida&amp;ie=UTF-8&amp;oe=UTF-8&amp;hl=en-ca&amp;client=safari#" class="u-btn u-btn-round u-button-style u-hover-palette-4-base u-palette-3-base u-radius-50 u-btn-1" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="" data-animation-delay="1000"><span class="u-icon"><svg class="u-svg-content" viewBox="0 0 54.757 54.757" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952
+        <a id = "BUTTON" class="u-btn u-btn-round u-button-style u-hover-palette-4-base u-palette-3-base u-radius-50 u-btn-1" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="" data-animation-delay="1000"><span class="u-icon"><svg class="u-svg-content" viewBox="0 0 54.757 54.757" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952
 	L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7
 	S31.416,26,27.557,26z"></path></svg><img></span>&nbsp;WEDDING Location
         </a>
@@ -92,19 +136,10 @@
     </section>
     
     
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-571d"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the Text Element.</p>
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-571d"><div class="u-clearfix u-sheet -sheet-1">
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-        <span>Website Templates</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="" target="_blank">
-        <span>Website Builder Software</span>
-      </a>. 
+        <span>LOOP INTERACTIVE</span>
     </section>
   
 </body></html>
