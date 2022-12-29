@@ -161,7 +161,7 @@
     margin-right: 0;
   }
 } .u-section-2 {
-  background-image: url("images/76132a82e85800b9751bd83c03264e7d8b28d9a16de6babaa5ee98bd41da550806cf59a1a479b2a936dbf49303f172a2b1c28c4d6abd094fed4f58_1280.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("images/ffafee329bd68c882fcecf88ac764dc76f832b16d2badb58fb48c4f9d3994f78aba3e96064dea605b28a1ebe9f780480c5a8b2b017800bed90626e_1280.jpg");
   background-position: 50% 50%;
 }
 
@@ -242,21 +242,21 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 621px;
+    min-height: 622px;
   }
 
   .u-section-2 .u-text-1 {
-    margin-top: 91px;
+    margin-top: 90px;
   }
 
   .u-section-2 .u-text-2 {
     font-size: 1.875rem;
-    margin-top: 38px;
+    margin-top: 37px;
   }
 
   .u-section-2 .u-text-3 {
     font-size: 1.875rem;
-    margin-top: 53px;
+    margin-top: 50px;
   }
 } .u-section-3 {
   background-image: url("images/cropped.png");
